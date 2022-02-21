@@ -6,6 +6,4 @@ root to: 'lists#index'
 resources :genres
 resources :lists
 get "genre_search/:id", to: "lists#genre_search",as: 'genre_search'
-get "calendar/index", to:"calendar#index"
-get "oauth2callback", to:"calendar#callback"
 end
